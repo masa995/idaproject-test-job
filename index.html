@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test job</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <section class="product-list">
+  <div class="container product-list__container">
+    <div class="product-list__header">
+      <h1 class="product-list__title">Добавление товара</h1>
+      <div class="product-list__filter-box">
+        <select class="product-list__filter" name="filter">
+          <option class="product-list__filter-value" value="default" selected>По умолчанию</option>
+          <option class="product-list__filter-value" value="minPrice">По цене min</option>
+          <option class="product-list__filter-value" value="maxPrice">По цене max</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="product-list__main">
+      <form action="#" class="product-list__form" enctype="application/x-www-form-urlencoded" method="post">
+        <label for="nameProduct" class="product-list__form-label">
+          <span>Наименование товара</span>
+
+          <input type="text" class="product-list__form-input" placeholder="Введите наименование товара" id="nameProduct"
+            name="nameProduct">
+        </label>
+
+        <label for="descrProductDescr" class="product-list__form-label">
+          Описание товара
+
+          <textarea class="product-list__form-area" cols="5" rows="3" placeholder="Введите описание товара"
+            id="descrProductDescr" name="descrProduct"></textarea>
+        </label>
+
+        <label for="linkImg" class="product-list__form-label">
+          <span>Ссылка на изображение товара</span>
+
+          <input type="text" class="product-list__form-input" placeholder="Введите ссылку" id="linkImg" name="linkImg">
+        </label>
+
+        <label for="priceProduct" class="product-list__form-label">
+          <span>Цена товара</span>
+
+          <input type="text" class="product-list__form-input" placeholder="Введите цену" id="priceProduct"
+            name="priceProduct">
+        </label>
+
+        <button class="btn-reset product-list__form-btn" type="submit" disabled>Добавить товар</button>
+      </form>
+
+      <ul class="list-reset product-list__list">
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="product-list__item" tabindex="0">
+          <img src="../img/photo.jpg" alt="Фото товара" class="product-list__img">
+          <div class="product-list__descr-product">
+            <h2 class="product-list__title-product">Наименование товара</h2>
+
+            <p class="product-list__text-product">Довольно-таки интересное описание товара в несколько строк.
+              Довольно-таки интересное описание товара в несколько строк</p>
+
+            <p class="product-list__price-product">10 000 руб.</p>
+          </div>
+
+          <button class=" btn-reset product-list__deleted-btn" type="button">
+            <svg>
+              <use xlink:href="img/sprite.svg#delete" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+  </div>
+  <script src="script/main.js"></script>
+</body>
+
+</html>
