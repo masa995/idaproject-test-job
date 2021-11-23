@@ -63,43 +63,43 @@ a {
   width: var(--max-width-container);
 }
 
-// @media(max-width: 1284px){
-//     .container {
-//     margin: 0 auto;
-//     padding: 0 15px;//чтобы не прилипало содержимое
-//     max-width: 1130px; //размер контейнера 
-//   }
-// }
+@media(max-width: var(--max-width-container)){
+    .container {
+    margin: 0 auto;
+    padding: 0 15px;//чтобы не прилипало содержимое
+    max-width: 1130px; //размер контейнера 
+  }
+}
 
-// @media (max-width: 1130px){
-//   .container {
-//     margin: 0 auto;
-//     padding: 0 15px;//чтобы не прилипало содержимое
-//     max-width: 930px; //размер контейнера 
-//   }
-// }
+@media (max-width: 1130px){
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;//чтобы не прилипало содержимое
+    max-width: 930px; //размер контейнера 
+  }
+}
 
 
-// @media (max-width: 930px){
-//   .container {
-//     margin: 0 auto;
-//     padding: 0 15px;//чтобы не прилипало содержимое
-//     max-width: 630px; //размер контейнера 
-//   }
-// }
+@media (max-width: 930px){
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;//чтобы не прилипало содержимое
+    max-width: 630px; //размер контейнера 
+  }
+}
 
-// @media (max-width: 630px){
-//   .container {
-//     margin: 0 auto;
-//     padding: 0 15px;//чтобы не прилипало содержимое
-//     max-width: 400px; //размер контейнера 
-//   }
-// }
+@media (max-width: 630px){
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;//чтобы не прилипало содержимое
+    max-width: 400px; //размер контейнера 
+  }
+}
 
-// @media (max-width: 400px){
-//   .container {
-//     margin: 0 auto;
-//     padding: 0 10px;//чтобы не прилипало содержимое
-//     max-width: 300px; //размер контейнера 
-//   }
-// }
+@media (max-width: 400px){
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;//чтобы не прилипало содержимое
+    max-width: 300px; //размер контейнера 
+  }
+}
