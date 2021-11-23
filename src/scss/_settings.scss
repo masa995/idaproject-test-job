@@ -63,19 +63,27 @@ a {
   width: var(--max-width-container);
 }
 
-@media(max-width: var(--max-width-container)){
+@media(max-width: 1410px){
     .container {
     margin: 0 auto;
-    padding: 0 15px;//чтобы не прилипало содержимое
-    max-width: 1130px; //размер контейнера 
+    padding: 0 15px;
+    max-width: 1284px; 
+  }
+}
+
+@media(max-width: 1284px){
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1130px;
   }
 }
 
 @media (max-width: 1130px){
   .container {
     margin: 0 auto;
-    padding: 0 15px;//чтобы не прилипало содержимое
-    max-width: 930px; //размер контейнера 
+    padding: 0 15px;
+    max-width: 930px;
   }
 }
 
@@ -83,23 +91,23 @@ a {
 @media (max-width: 930px){
   .container {
     margin: 0 auto;
-    padding: 0 15px;//чтобы не прилипало содержимое
-    max-width: 630px; //размер контейнера 
+    padding: 0 15px;
+    max-width: 610px;
   }
 }
 
 @media (max-width: 630px){
   .container {
     margin: 0 auto;
-    padding: 0 15px;//чтобы не прилипало содержимое
-    max-width: 400px; //размер контейнера 
+    padding: 0 15px;
+    max-width: 380px;
   }
 }
 
 @media (max-width: 400px){
   .container {
     margin: 0 auto;
-    padding: 0 10px;//чтобы не прилипало содержимое
-    max-width: 300px; //размер контейнера 
+    padding: 0 10px;
+    max-width: 300px;
   }
 }
